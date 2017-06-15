@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                 if(c4.isChecked()){
                     Personality+=c4.getText().toString()+" ";
                 }
-                Intent intent = new Intent(MainActivity.this, Information.class);
+                Intent intent = new Intent(MainActivity.this, InformationActivity.class);
                 intent.putExtra("Name", Name);
                 intent.putExtra("Gender", Gender);
                 intent.putExtra("Personality", Personality);
