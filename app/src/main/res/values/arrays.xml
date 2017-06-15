@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="major">
+        <item>computer science</item>
+        <item>information science</item>
+        <item>mechanical engineering</item>
+        <item>software engenering</item>
+    </string-array>
+</resources>
