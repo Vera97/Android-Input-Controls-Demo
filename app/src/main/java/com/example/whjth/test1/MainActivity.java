@@ -39,10 +39,10 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(RadioGroup radioGroup, int id){
                 switch (id) {
                     case R.id.male:
-                        Gender = "男";
+                        Gender = "male";
                         break;
                     case R.id.female:
-                        Gender = "女";
+                        Gender = "female";
                         break;
                 }
             }
